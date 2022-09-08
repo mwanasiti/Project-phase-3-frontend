@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 
 
 
-function Topics ({id,name}){
+function Authors ({id,image_url,name}){
     return (  
         <div className="course">
             <form>
@@ -12,8 +12,9 @@ function Topics ({id,name}){
             <div class="card-body">
             <div className="details">
                 <section>
-                    <h3>{id}</h3>
-                    <h3>Name:{name}</h3>
+                    <h3>{image_url}</h3>
+                    <h3>Author:{name}</h3>
+                    
                 </section>
                 </div>
 
@@ -29,4 +30,4 @@ function Topics ({id,name}){
 }
 
 
-export default Topics;
+export default Authors;
