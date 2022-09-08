@@ -2,7 +2,7 @@ import React from 'react'
 
 const FemPro = () => {
   return (
-    <div className='homepage'>
+    <div className=''>
       <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-mdb-ride="carousel">
   <div className="carousel-indicators">
     <button
