@@ -17,20 +17,28 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [topics, setTopics] = useState([]);
 
+  const handleData=(item)=>{
+    const postHeaders={
+      method:'POST',
+      headers:{'Content-type':'application/json'},
+      body:JSON.stringify(item)
+  
+    }
+
 
   useEffect(()=>{
-    fetch('https://fempro-backend.herokuapp.com/courses')
+    fetch('https://fempro-backend.herokuapp.com/courses',postHeaders)
     .then((res)=> res.json())
     .then((data) =>setCourses(data))
 
-    fetch('https://fempro-backend.herokuapp.com/authors')
+    fetch('https://fempro-backend.herokuapp.com/authors',postHeaders)
     .then((res)=> res.json())
     .then((data) =>setAuthors(data))
 
-    fetch('https://fempro-backend.herokuapp.com/topics')
+    fetch('https://fempro-backend.herokuapp.com/topics',postHeaders)
     .then((res)=> res.json())
     .then((data) =>setTopics(data))
-  },[])
+    },[])}
   return (
     <div className='App container'>
       <Navbar/>
