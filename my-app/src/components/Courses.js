@@ -14,8 +14,8 @@ function Courses ({courses}){
                 <div>{course.name}</div>
                 <div>{course.topic_id}</div>
                 <div>{course.author_id}</div>
-                <div><a href= "#">{"https://gateway.ipfs.io/ipfs/"+this.state.ipfsHash}</a></div>
-                {course.link}
+                <div><a href= "#">{course.link}</a></div>
+                {/* {course.link} */}
                     </div>
                     </div>
                     </div>
