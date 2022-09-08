@@ -6,7 +6,9 @@ function About() {
     <div>
     <div>
       <h2 className="abou"> About</h2>
+
       </div>
+      <section></section>
       <div>
         <img className="aboutImage" src={image} alt='myimage'></img>
       </div>
