@@ -28,17 +28,17 @@ const Home = () => {
   </div>
   <div className="carousel-inner text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}} >
     <div className="carousel-item active">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" className="d-block w-100" alt="Wild Landscape"/>
+      <img src="https://media.istockphoto.com/photos/feminist-movement-hands-togetherness-group-of-multicultural-woman-picture-id1368313283?k=20&m=1368313283&s=612x612&w=0&h=9S2SG4HMexGGxTtOokPoOvsP2rjeKG7iDJ2yteJhdS0=" className="d-block w-100" alt="Wild Landscape"/>
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" className="d-block w-100" alt="Camera"/>
+      <img src="https://media.istockphoto.com/photos/multiracial-friends-having-fun-together-outdoor-focus-on-faces-picture-id1372126587?k=20&m=1372126587&s=612x612&w=0&h=PX2j2yj8Tf5SRp4Ki7Gpvkt_sgwFLxYF5artjW7QcZI=" className="d-block w-100" alt="Camera"/>
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" className="d-block w-100" alt="Exotic Fruits"/>
+      <img src="" className="d-block w-100" alt="Exotic Fruits"/>
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
