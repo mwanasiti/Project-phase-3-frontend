@@ -21,7 +21,7 @@ const App = () => {
       body:JSON.stringify(item)
   
     }
-    fetch('',postHeaders)
+    fetch('https://fempro-backend.herokuapp.com/courses',postHeaders)
     .then(res=>res.json())
     .then(data=>setUsers([...users,data]))
 

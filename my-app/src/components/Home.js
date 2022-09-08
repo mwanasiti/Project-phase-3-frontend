@@ -14,9 +14,6 @@ const Home = () => {
 <button type="button" class="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
 <button type="button" class="btn btn-outline-success btn-rounded" data-mdb-ripple-color="dark">Authors</button>
       </div>
-      <div>
-      <img src='https://media.istockphoto.com/photos/womens-day-poster-with-woman-silhouette-and-fists-inside-in-paper-cut-picture-id1371551900?b=1&k=20&m=1371551900&s=170667a&w=0&h=LR9Bbvf69upWeLLmVLRMRuDJwUgpxqibd2AKJOBq0J8='></img>
-      </div>
     </div>
   )
 }
