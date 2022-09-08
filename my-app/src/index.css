@@ -110,15 +110,13 @@ header{
   }
 }
 
-.aboutImage{
-  width: 250%;
-  margin-top: -4%;
-}
+
 
 .paragraph{
   margin-top: 2%;
   color: aliceblue;
   margin-bottom: 10px;
+  font-style: italic;
  
 }
 
@@ -127,25 +125,6 @@ body{
 }
 
 @import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap);
-
-/* h1 {
-  background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
-  background-size: 40%;
-  background-position: 50% 50%;
-  -webkit-background-clip: text;
-  color: hsla(0, 0%, 0%, 0.08);
-  animation: zoomout 10s ease 500ms forwards;
-  font-size: 70px;
-}
-
-@keyframes zoomout {
-  from {
-    background-size: 40%;
-  }
-  to {
-    background-size: 10%;
-  }
-} */
 
 
 
@@ -201,4 +180,8 @@ h2:hover {
 
 .name{
   text-align: right;
+}
+
+.authorimage{
+  width: 350px;
 }

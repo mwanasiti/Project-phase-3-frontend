@@ -14,7 +14,7 @@ function Courses ({courses}){
                 <div>Title: {course.name}</div>
                 <div>Category: {course.topic_id}</div>
                 <div>Author: {course.author_id}</div>
-                <div><a href={course.link}>Course link</a></div>
+                <div>Course link: <a href={course.link}>Tap to view course</a></div>
                     </div>
                     </div>
                     </div>
