@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Topics from './components/Topics'
 import Courses from './components/Courses'
 import Authors from './components/Authors'
+import FemPro from './components/FemPro';
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
       <Navbar/>
       <Header/>
       <Routes>
+          <Route path='/' element={<FemPro/>}/>
           <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
