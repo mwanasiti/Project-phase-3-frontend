@@ -187,3 +187,7 @@ h2:hover {
 .checked {
   color: orange;
 }
+
+.slideimage{
+  background-size: cover;
+}
