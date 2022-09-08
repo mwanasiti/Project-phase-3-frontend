@@ -11,7 +11,7 @@ function Courses ({courses}){
                         <div className="card-body">
                         <div className="details">
                     <img src={course.image_url} alt={course.name}/>
-                <div>{course.name}</div>
+                <div>{course.name}Title</div>
                 <div>{course.topic_id}</div>
                 <div>{course.author_id}</div>
                 <div><a href= "#">{course.link}</a></div>
