@@ -23,7 +23,7 @@ function About() {
 </p>
           <p>Creating an app that would help further achieve this SDG, Sustainable Development Goal, by combining E-learning, Training of trainers courses, Digital solution and in overall Advocacy. This app would enable access to related source material.
 </p>
-<p className="name">Ali Mariam</p>
+<p className="name">~Ali Mariam</p>
 </p>
 
       </div>
