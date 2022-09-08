@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 
 
@@ -15,7 +14,7 @@ function Courses ({courses}){
                 <div>{course.name}</div>
                 <div>{course.topic_id}</div>
                 <div>{course.author_id}</div>
-                <Link>{course.link}</Link>
+                <div>{course.link}</div>
                     </div>
                     </div>
                     </div>
