@@ -7,8 +7,8 @@ function About() {
     <div>
       <h2 className="abou"> About</h2>
       </div>
-      <div className="aboutImage">
-        <img src={image} alt='myimage'></img>
+      <div>
+        <img className="aboutImage" src={image} alt='myimage'></img>
       </div>
 
       <div>
