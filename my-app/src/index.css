@@ -23,15 +23,6 @@
 
 }
 
-.feedback-card{
-  margin-top: 10%;
-  background-color: white;
-  color: black;
-}
-
-.reason{
-  color:green; 
-}
 
 .image{
   align-items: center;
@@ -135,10 +126,6 @@ body{
 .App {
   height: 75vh;
   margin-top: 10px;
-}
-
-.cardform{
-  margin-top: -5%;
 }
 
 
