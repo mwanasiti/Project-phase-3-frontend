@@ -17,39 +17,32 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [topics, setTopics] = useState([]);
 
-  const handleData=(item)=>{
-    const postHeaders={
-      method:'POST',
-      headers:{'Content-type':'application/json'},
-      body:JSON.stringify(item)
-  
-    }
 
 
   useEffect(()=>{
-    fetch('https://fempro-backend.herokuapp.com/courses',postHeaders)
+    fetch('https://fempro-backend.herokuapp.com/courses')
     .then((res)=> res.json())
     .then((data) =>setCourses(data))
 
-    fetch('https://fempro-backend.herokuapp.com/authors',postHeaders)
+    fetch('https://fempro-backend.herokuapp.com/authors')
     .then((res)=> res.json())
     .then((data) =>setAuthors(data))
 
-    fetch('https://fempro-backend.herokuapp.com/topics',postHeaders)
+    fetch('https://fempro-backend.herokuapp.com/topics')
     .then((res)=> res.json())
     .then((data) =>setTopics(data))
-    },[])}
+  },[])
   return (
     <div className='App container'>
       <Navbar/>
       <Header/>
       <Routes>
-          <Route exact path='/' element={<Home/>}/>
-      <Route exact path='/about' element={<About/>}/>
-      <Route exact path='/contact' element={<Contact/>}/>
-      <Route exact path='/courses' element={<Courses courses={courses}/>}/>
-      <Route exact path='/topics' element={<Topics topics={topics}/>}/>
-      <Route exact path='/authors' element={<Authors authors={authors}/>}/>
+          <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/courses' element={<Courses courses={courses}/>}/>
+      <Route path='/topics' element={<Topics topics={topics}/>}/>
+      <Route path='/authors' element={<Authors authors={authors}/>}/>
       </Routes>
  </div>
   );

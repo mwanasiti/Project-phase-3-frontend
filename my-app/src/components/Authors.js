@@ -4,28 +4,28 @@ import userEvent from "@testing-library/user-event";
 
 
 
-function Authors ({id,image_url,name}){
+function Authors ({authors}){
     return (  
-        <div className="course">
-            <form>
-            <div class="card">
-            <div class="card-body">
-            <div className="details">
-                <section>
-                    <h3>{image_url}</h3>
-                    <h3>Author:{name}</h3>
-                    
-                </section>
-                </div>
+        <div className="authors">
+                {authors.map((author)=>(
+                    <div className="card">
+                        <div className="card-body">
+                        <div className="details">
+                    <img src={author.image_url} alt={author.name}/>
+                <div>{author.name}</div>
+                    </div>
+                    </div>
+                    </div>
+
+                ))}
 
     
     
   </div>
-</div>
-            </form>
+
             
 
-        </div>
+
     )
 }
 
