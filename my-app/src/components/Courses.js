@@ -12,6 +12,9 @@ function Courses ({courses}){
                         <div className="details">
                     <img src={course.image_url} alt={course.name}/>
                 <div>{course.name}</div>
+                <div>{course.topic_id}</div>
+                <div>{course.author_id}</div>
+                <div>{course.link}</div>
                     </div>
                     </div>
                     </div>
