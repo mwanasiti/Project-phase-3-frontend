@@ -1,0 +1,160 @@
+:root {
+  color: black;
+  background-color: black;  
+}
+
+/* .Navbar{
+  background-color: black;
+} */
+
+.card{
+  color:white;
+  background-color: black;
+  margin-top: 5px;
+}
+
+img{
+  max-width: 100%;
+  max-inline-size: 10%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.feedback-card{
+  margin-top: 10%;
+  background-color: white;
+  color: black;
+}
+
+.reason{
+  color:green; 
+}
+
+.image{
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+header{
+  background-color:black;
+  text-align: center;
+  font-display: block;
+  text-size-adjust: 1000px;
+  font-display: block;
+  font-size: larger;
+  font-style: unset;
+}
+
+
+.cont{
+  margin-top: -30px;
+  margin-left: -6%;
+  font-size: 40px;
+  padding: 64px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+.links{
+  font-size: 120%;
+}
+
+.contactInfo{
+  color: aliceblue;
+}
+
+.conTact{
+  margin-top: 0%;
+  margin-bottom: -30%;
+}
+
+
+.abou{
+  margin-top: -30px;
+  margin-left: -5%;
+  font-size: 50px;
+  padding: 64px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+.aboutImage{
+  width: 250%;
+  margin-top: -4%;
+}
+
+.paragraph{
+  margin-top: 2%;
+  color: aliceblue;
+  margin-bottom: 10px;
+ 
+}
+
+body{
+  background-color: black;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap);
+
+/* h1 {
+  background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.08);
+  animation: zoomout 10s ease 500ms forwards;
+  font-size: 70px;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+} */
+
+
+
+.App {
+  height: 75vh;
+  margin-top: 10px;
+}
+
+.cardform{
+  margin-top: -5%;
+}
+
