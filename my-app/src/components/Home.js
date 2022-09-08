@@ -28,7 +28,7 @@ const Home = () => {
   </div>
   <div className="carousel-inner text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}} >
     <div className="carousel-item active">
-      <img src="https://media.istockphoto.com/photos/feminist-movement-hands-togetherness-group-of-multicultural-woman-picture-id1368313283?k=20&m=1368313283&s=612x612&w=0&h=9S2SG4HMexGGxTtOokPoOvsP2rjeKG7iDJ2yteJhdS0=" className="d-block w-100" alt="Wild Landscape"/>
+      <img src="https://media.istockphoto.com/photos/social-equality-woman-stands-for-equal-rights-picture-id1358934225?k=20&m=1358934225&s=612x612&w=0&h=BCSVEXambfBww0UO8ZvAlKg7jEWjxL0DIO2JD-m4Zd8=" className="d-block w-100" alt="Wild Landscape"/>
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="" className="d-block w-100" alt="Exotic Fruits"/>
+      <img src="https://media.istockphoto.com/photos/feminist-pride-flag-waving-in-the-wind-sky-and-sun-background-3d-picture-id1346068076?k=20&m=1346068076&s=612x612&w=0&h=nxT_jbkVE4-IFEfjQ2vaDPT5hRQkFhLcLeWUV8EXYZw=" className="d-block w-100" alt="Exotic Fruits"/>
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
