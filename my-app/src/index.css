@@ -131,23 +131,23 @@ body{
 }
 
 
-/* .buttons{
+.buttons{
   text-align: center;
   font-display: justify;
-  /* justify-content: space-between; */
-  /* align-content: space-between;
+  justify-content: space-between;
   margin-bottom: 30px;
-  align-tracks: ;
-  text-size-adjust: 200px;
-} */ */
-
-.buttons {
-  transition-duration: 0.4s;
+  background-color: black;
+  color: deeppink;
 }
+
+/* .buttons {
+  /* transition-duration: 0.4s; */
+  /* background-color: pink; */
+  /* color: black; */
+  /* border-radius: 102px; */
+  /* text-align: center;
+} */ */
 .buttons:hover {
-  background-color: pink;
-  color: black;
-border-radius: 12px;
 width: 250px;
 padding: 15px 32px;
 font-size: 24px;

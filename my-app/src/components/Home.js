@@ -12,9 +12,15 @@ const Home = () => {
       </div>
       </section>
       <div className='buttons'>
-           <button>Courses</button>
-           <button>Topics</button>
-           <button>Authors</button>
+        <div>
+          <div>
+           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>
+           </div>
+           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
+           </div>
+           <div>
+           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Authors</button>
+           </div>
           {/* <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>
           <button type="button" className="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
           <button type="button" className="btn btn-outline-success btn-rounded" data-mdb-ripple-color="dark">Authors</button> */}
