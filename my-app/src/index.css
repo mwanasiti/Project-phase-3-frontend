@@ -137,7 +137,14 @@ body{
   justify-content: space-between;
   margin-bottom: 30px;
   background-color: black;
-  color: deeppink;
+  outline: deeppink;
+  
+}
+
+.btn btn-outline-primary btn-rounded{
+  margin-top: 30px;
+  border-radius: 102px;
+  font-size: 100px;
 }
 
 /* .buttons {

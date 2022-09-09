@@ -1,6 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigation = useNavigate();
+
   return (
     <div className='homepage'>
       <section className='homeimage'>
@@ -14,12 +17,18 @@ const Home = () => {
       <div className='buttons'>
         <div>
           <div>
-           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>
+           <button 
+            type="button" 
+            className="btn btn-outline-primary btn-rounded" 
+            data-mdb-ripple-color="dark"
+            onClick={()=>{navigation('/courses')}}
+            >
+              Courses</button>
            </div>
-           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
+           <button type="button" className="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
            </div>
            <div>
-           <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Authors</button>
+           <button type="button" className="btn btn-outline-success btn-rounded" data-mdb-ripple-color="dark">Authors</button>
            </div>
           {/* <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>
           <button type="button" className="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
