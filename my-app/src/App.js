@@ -18,6 +18,17 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [topics, setTopics] = useState([]);
 
+  function deleteTopic(id){
+    fetch(`https://fempro-backend.herokuapp.com/topics/${id}`,{
+        method: "DELETE",
+    })
+    .then(r => r.json())
+    .then(() => {
+        const goThru = topics.filter((topic) => topic.id !== id)
+            setTopics(goThru)
+        })
+  }
+
 
 
   useEffect(()=>{
@@ -43,7 +54,7 @@ const App = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/courses' element={<Courses courses={courses}/>}/>
-      <Route path='/topics' element={<Topics topics={topics}/>}/>
+      <Route path='/topics' element={<Topics topics={topics} deleteTopic={deleteTopic}/>}/>
       <Route path='/authors' element={<Authors authors={authors}/>}/>
       </Routes>
  </div>

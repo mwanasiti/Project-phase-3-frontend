@@ -5,7 +5,7 @@ function Courses ({courses}){
     return (  
         <div className="course">
                 {courses.map((course)=>(
-                    <div className="card">
+                    <div className="card col-md-6">
                         <div className="card-body">
                         <div className="details">
                     <img src={course.image_url} alt={course.name}/>

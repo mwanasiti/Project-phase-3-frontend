@@ -25,10 +25,18 @@ const Home = () => {
             >
               Courses</button>
            </div>
-           <button type="button" className="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>
+           <button type="button" 
+           className="btn btn-outline-secondary btn-rounded" 
+           data-mdb-ripple-color="dark"
+           onClick={()=>{navigation('/topics')}}
+           >Topics</button>
            </div>
            <div>
-           <button type="button" className="btn btn-outline-success btn-rounded" data-mdb-ripple-color="dark">Authors</button>
+           <button type="button" 
+           className="btn btn-outline-success btn-rounded" 
+           data-mdb-ripple-color="dark"
+           onClick={()=>{navigation('/authors')}}
+           >Authors</button>
            </div>
           {/* <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>
           <button type="button" className="btn btn-outline-secondary btn-rounded" data-mdb-ripple-color="dark">Topics</button>

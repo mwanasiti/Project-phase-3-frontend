@@ -1,30 +1,27 @@
 import React from "react";
-import {useState} from "react";
-import userEvent from "@testing-library/user-event";
 
 
 
-function Topics ({id,name}){
+
+function Topics ({topics, deleteTopic}){
+    console.log(topics);
     return (  
-        <div className="course">
-            <form>
-            <div class="card">
-            <div class="card-body">
-            <div className="details">
-                <section>
-                    <h3>{id}</h3>
-                    <h3>Name:{name}</h3>
-                </section>
+    <>
+    <div>
+        {topics.map((topic) => {
+            return (
+                <>
+                <div key={topic.id}>
+                    <div className="topic">Category: {topic.name}</div>
+                    <p></p>
+                    <button onClick={() => deleteTopic(topic.id)}>Delete</button>
                 </div>
+                </>
+            )
+        })}
+    </div>
+    </>
 
-    
-    
-  </div>
-</div>
-            </form>
-            
-
-        </div>
     )
 }
 
