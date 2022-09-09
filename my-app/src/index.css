@@ -10,7 +10,15 @@
 .card{
   /* color:bl; */
   background-color: white;
+  /* color: black; */
   margin-top: 5px;
+}
+
+.course{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .fadeimg{

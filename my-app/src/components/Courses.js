@@ -22,7 +22,7 @@ function Courses ({courses}){
                 <span class="fa fa-star"></span>
                     </div>
                     </div>
-                    </div>
+        </div>
 
                 ))}
 

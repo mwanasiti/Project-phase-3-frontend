@@ -7,7 +7,7 @@ function Authors ({authors}){
     return (  
         <div className="authors">
                 {authors.map((author)=>(
-                    <div className="card">
+                    <div className="authorcard col-md-6">
                         <div className="card-body">
                         <div className="details">
                     <img className="authorimage" src={author.image_url} alt={author.name}/>
