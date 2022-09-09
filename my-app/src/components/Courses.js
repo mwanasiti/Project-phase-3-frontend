@@ -5,9 +5,9 @@ function Courses ({courses}){
     return (  
         <div className="course">
                 {courses.map((course)=>(
-                    <div className="card col-md-6">
-                        <div className="card-body">
-                        <div className="details">
+                    <div className="card col-md-6" style={{ width:"540px", marginBottom:"20px"}}>
+                        <div className="card-body" >
+                        <div className="details" >
                     <img src={course.image_url} alt={course.name}/>
                 <div>Title: {course.name}</div>
                 <div>Category: {course.topic_id}</div>
