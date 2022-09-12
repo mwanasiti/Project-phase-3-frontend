@@ -2,7 +2,7 @@ import {React, useState, useEffect} from 'react'
 import Home from './components/Home';
 import Header from './components/Header';
 import './index.css'
-import {Routes, Route, BrowserRouter} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import About from './components/About';
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
@@ -49,18 +49,16 @@ const App = () => {
     <div className='App container'>
       <Navbar/>
       <Header/>
-      <BrowserRouter>
-        <Routes>
-          <Route exact='true' path='/' element={<Home/>}/>
+      <Routes>
           <Route path='/fempro' element={<FemPro/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/courses' element={<Courses courses={courses}/>}/>
-          <Route path='/topics' element={<Topics topics={topics}/>}/>
-          <Route path='/authors' element={<Authors authors={authors}/>}/>
-          <Route path='/users' element={<Users />}/>
-        </Routes>
-      </BrowserRouter>
+          <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/courses' element={<Courses courses={courses}/>}/>
+      <Route path='/topics' element={<Topics topics={topics}/>}/>
+      <Route path='/authors' element={<Authors authors={authors}/>}/>
+      <Route path='/users' element={<Users />}/>
+      </Routes>
  </div>
   );
 }
