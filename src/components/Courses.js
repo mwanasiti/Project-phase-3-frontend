@@ -10,8 +10,8 @@ function Courses ({courses}){
                         <div className="details" >
                     <img src={course.image_url} alt={course.name}/>
                 <div>Title: {course.name}</div>
-                <div>Category: {course.topic_id}</div>
-                <div>Author: {course.author_id}</div>
+                <div>Category: {course.topic.name}</div>
+                <div>Author: {course.author.name}</div>
                 <div>Course link: <a href={course.link} rel="noopener">Tap to view course</a></div>
 
                 
