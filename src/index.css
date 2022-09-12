@@ -149,12 +149,6 @@ body{
   font-size: 50px;
 }
 
-.buttons:hover {
-width: 250px;
-padding: 15px 32px;
-font-size: 24px;
-}
-
 h2 {
   color: hsl(0, 0%, 28%);
   font-size: 50px;
