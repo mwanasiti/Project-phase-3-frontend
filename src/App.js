@@ -49,16 +49,18 @@ const App = () => {
     <div className='App container'>
       <Navbar/>
       <Header/>
-      <Routes>
+      <BrowserRouter>
+        <Routes>
           <Route path='/fempro' element={<FemPro/>}/>
           <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/courses' element={<Courses courses={courses}/>}/>
-      <Route path='/topics' element={<Topics topics={topics}/>}/>
-      <Route path='/authors' element={<Authors authors={authors}/>}/>
-      <Route path='/users' element={<Users />}/>
-      </Routes>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/courses' element={<Courses courses={courses}/>}/>
+          <Route path='/topics' element={<Topics topics={topics}/>}/>
+          <Route path='/authors' element={<Authors authors={authors}/>}/>
+          <Route path='/users' element={<Users />}/>
+        </Routes>
+      </BrowserRouter>
  </div>
   );
 }
