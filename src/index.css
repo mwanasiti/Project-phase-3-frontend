@@ -116,6 +116,7 @@ header{
   width: 30%;
   margin-top: -4%;
   margin-left: 360px;
+  /* float: left; */
 }
 
 .paragraph{
@@ -152,9 +153,8 @@ body{
   font-display: justify;
   justify-content: space-between;
   margin-bottom: 30px;
-  background-color: black;
-  outline: deeppink;
-  
+  padding: 10px 20px;
+  font-size: 50px;
 }
 
 .btn btn-outline-primary btn-rounded{

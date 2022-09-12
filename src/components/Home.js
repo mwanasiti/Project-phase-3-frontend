@@ -22,6 +22,7 @@ const Home = () => {
             className="btn btn-outline-primary btn-rounded" 
             data-mdb-ripple-color="dark"
             onClick={()=>{navigation('/courses')}}
+            style={{fontSize: '20px', padding: '14px 40px', border: '2px solid #B30042', color: '#B30042'}}
             >
               Courses</button>
            </div>
@@ -29,6 +30,7 @@ const Home = () => {
            className="btn btn-outline-secondary btn-rounded" 
            data-mdb-ripple-color="dark"
            onClick={()=>{navigation('/topics')}}
+           style={{fontSize: '20px', padding: '14px 40px', border: '2px solid #B30042', color: '#B30042'}}
            >Topics</button>
            </div>
            <div>
@@ -36,6 +38,7 @@ const Home = () => {
            className="btn btn-outline-success btn-rounded" 
            data-mdb-ripple-color="dark"
            onClick={()=>{navigation('/authors')}}
+           style={{fontSize: '20px', padding: '14px 40px', border: '2px solid #B30042', color: '#B30042'}}
            >Authors</button>
            </div>
           {/* <button type="button" className="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">Courses</button>

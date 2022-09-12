@@ -26,10 +26,15 @@ const FemPro = () => {
       aria-label="Slide 3"
     ></button>
   </div>
-  <div className="carousel-inner text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}} >
+  <div className="carousel-inner text-center" 
+  style={{
+  backgroundColor: "rgba(0, 0, 0, 0.6)",
+  }} >
     <div className="carousel-item active">
       <img className='slideimage' src="https://media.istockphoto.com/photos/woman-with-letters-grl-pwr-written-on-her-hand-picture-id1137694152?k=20&m=1137694152&s=612x612&w=0&h=woosf7ZydzCyU7WE0mz2V1N5-1jtUn9qVqb-VBj3Cuk=" className="d-block w-100" alt="Wild Landscape"/>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-none d-md-block" style={{color: 'black', fontSize: '30px', background: '#fff'}}>
+      <h3>WELCOME</h3>
+        <p>Change starts with Me and You</p>
       </div>
     </div>
     <div className="carousel-item">

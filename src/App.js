@@ -10,6 +10,7 @@ import Topics from './components/Topics'
 import Courses from './components/Courses'
 import Authors from './components/Authors'
 import FemPro from './components/FemPro';
+import Users from './components/Users';
 
 
 
@@ -18,16 +19,16 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [topics, setTopics] = useState([]);
 
-  function deleteTopic(id){
-    fetch(`https://fempro-backend.herokuapp.com/topics/${id}`,{
-        method: "DELETE",
-    })
-    .then(r => r.json())
-    .then(() => {
-        const goThru = topics.filter((topic) => topic.id !== id)
-            setTopics(goThru)
-        })
-  }
+  // function deleteTopic(id){
+  //   fetch(`https://fempro-backend.herokuapp.com/topics/${id}`,{
+  //       method: "DELETE",
+  //   })
+  //   .then(r => r.json())
+  //   .then(() => {
+  //       const goThru = topics.filter((topic) => topic.id !== id)
+  //           setTopics(goThru)
+  //       })
+  // }
 
 
 
@@ -54,8 +55,9 @@ const App = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/courses' element={<Courses courses={courses}/>}/>
-      <Route path='/topics' element={<Topics topics={topics} deleteTopic={deleteTopic}/>}/>
+      <Route path='/topics' element={<Topics topics={topics}/>}/>
       <Route path='/authors' element={<Authors authors={authors}/>}/>
+      <Route path='/users' element={<Users />}/>
       </Routes>
  </div>
   );

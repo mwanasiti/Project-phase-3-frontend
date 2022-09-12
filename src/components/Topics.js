@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-function Topics ({topics, deleteTopic}){
+function Topics ({topics}){
     console.log(topics);
     return (  
     <>
@@ -13,8 +13,12 @@ function Topics ({topics, deleteTopic}){
                 <>
                 <div key={topic.id}>
                     <div className="topic">Category: {topic.name}</div>
-                    <p></p>
-                    <button onClick={() => deleteTopic(topic.id)}>Delete</button>
+                    <div>
+                    <ul>
+                        <li>Feminism and Social Justce</li>
+                        <li>International Women's health and Human rights</li>
+                    </ul>
+                </div>
                 </div>
                 </>
             )

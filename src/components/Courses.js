@@ -12,7 +12,7 @@ function Courses ({courses}){
                 <div>Title: {course.name}</div>
                 <div>Category: {course.topic_id}</div>
                 <div>Author: {course.author_id}</div>
-                <div>Course link: <a href={course.link}>Tap to view course</a></div>
+                <div>Course link: <a href={course.link} target='_blank'>Tap to view course</a></div>
 
                 
                 <span class="fa fa-star checked"></span>
